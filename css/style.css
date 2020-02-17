@@ -83,22 +83,36 @@ nav a {
 }
 
 .project-image {
-	width: 260px;
-	height: 240px;
+	width: 280px;
+	height: 260px;
+	border: 5px solid gray;
+	border-radius: 10px;
 }
 
 .see-the-world-logo {
-	width: 290px;
-	height: 250px;
+	width: 310px;
+	height: 270px;
+	border: 5px solid gray;
+	border-radius: 10px;
 }
 
 #shooting-hoop-image {
 	width: 800px;
+	border: 5px solid gray;
+	border-radius: 10px;
 }
 
-.shooting-hoop-tech {
+.see-the-world-image {
+	width: 560px;
+	height: 350px;
+	border: 5px solid gray;
+	border-radius: 10px;
+}
+
+.tech-used {
 	display: flex;
 	justify-content: space-around;
+	margin: auto 300px;
 }
 
 .about-project-info {
