@@ -16,11 +16,6 @@ nav a {
 	justify-content: space-around;
 }
 
-.about-profile.pic::after {
-	opacity: 0.5;
-
-}
-
 .about {
 	display: flex;
 	text-align: left;
