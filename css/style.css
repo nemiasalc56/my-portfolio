@@ -16,16 +16,21 @@ nav a {
 	justify-content: space-around;
 }
 
-.about {
-	display: flex;
-	text-align: center;
-	justify-content: space-around;
-	margin: 20px 70px;
+.about-profile.pic::after {
+	opacity: 0.5;
+
 }
 
-.about-me {
-	align-self: center;
+.about {
+	display: flex;
+	text-align: left;
+	justify-content: space-around;
+	margin: 20px 70px;
 	font-size: 30px;
+}
+
+.about-me-title {
+	text-align: center;
 }
 
 .profile-container {
@@ -40,9 +45,6 @@ nav a {
 	border-radius: 50%;
 }
 
-.experience-container {
-	margin: 20px;
-}
 
 .project-container {
 	margin: 20px;
@@ -63,18 +65,6 @@ nav a {
 	justify-content: space-around;
 }
 
-#ga {
-	width: 400px;
-}
-
-#ctc {
-	width: 400px;
-}
-
-.experience {
-	display: flex;
-	justify-content: space-around;
-}
 
 .projects {
 	display: flex;
@@ -136,3 +126,6 @@ footer {
 	background-color: white;
 }
 
+.resume {
+	color: white;
+}
